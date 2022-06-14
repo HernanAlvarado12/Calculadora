@@ -6,10 +6,8 @@ function application(){
                         "\n3. Multiplicacion." +
                         "\n4. Division.");
     let first, second = 0;
-    console.log(typeof result);
     switch(result){
         case "1":{
-            console.log("Entroooo")
             first = prompt("Ingresa el primer valor.");
             second = prompt("Ingresa el segundo valor.");
             alert("El resultado de la suma es: " + addition(Number.parseInt(first), Number.parseInt(second)));
